@@ -1,0 +1,1 @@
+mvn -D"cucumber.options=--tags @run" test

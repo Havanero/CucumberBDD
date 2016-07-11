@@ -1,14 +1,14 @@
 package com.bdd.test.cases;
 
-import com.bdd.StepRunner;
+import com.bdd.StepRunnerTest;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.BeforeClass;
+import org.junit.Test;
 
-public class complete_registration extends StepRunner {
+public class complete_registration extends StepRunnerTest {
 
     @Before
     public void setUp() {
@@ -17,11 +17,11 @@ public class complete_registration extends StepRunner {
     }
 
     @After
-    public void tearDown(){
-        num=num+9;
+    public void tearDown() {
+        num = num + 9;
     }
 
-
+    @Test
     @Given("^a new customer has completed the registration form$")
     public void a_new_customer_has_completed_the_registration_form() throws Throwable {
         num++;
