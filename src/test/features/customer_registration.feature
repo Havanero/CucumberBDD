@@ -1,3 +1,4 @@
+@Run
 Feature: new customer of an e-commerce site - Register Customer
 
   As a new customer of an e-commerce site

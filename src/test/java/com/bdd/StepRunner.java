@@ -8,11 +8,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(format = {"pretty", "html:output", "json:output/index.json"}, features = "src/test/features")
-/*@CucumberOptions(format={"pretty", "html:target/cucumber","json:target/integration_cucumber.json"},
-// tags={"@run"})//what tags to include(@)/exclude(@~)
-        features ="src/test/features",  glue="com.bdd.test.cases")*/
-
+@CucumberOptions(format = {"pretty", "html:output", "json:output/index.json"}, features = "src/test/features",
+tags = "@Run")
 public class StepRunner {
 
     public  static int num=0;
