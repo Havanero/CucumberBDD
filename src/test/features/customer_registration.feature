@@ -1,4 +1,4 @@
-Feature: new customer of an e-commerce site
+Feature: new customer of an e-commerce site - Register Customer
 
   As a new customer of an e-commerce site
   I want a way to sign up to your service
